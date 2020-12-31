@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor Kiss"/>
+    <meta name="description" content="Uma calculadora simples de imc"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+            <div class="card-area">
+                <div class="text-area">
+               <h4>Calculadora de IMC</h4>
+               <a href="https://github.com/victor-kiss"  target="_blank">- Feito por Victor Kiss -</a>
+            </div>
+            <div class="input-area">
+                <label for="weight-input">Digite o seu peso...</label>
+                <input type="number" id="weight-input" placeholder="Informe o seu peso..."/>
+
+                <label for="height-input">Digite a sua altura...</label>
+                <input type="number" id="height-input" placeholder="Informe sua altura..."/>
+
+                <div class="button-area">
+                    <button type="button" class="send-button">Enviar</button>
+                    <button type="button" class="clear-button">Limpar</button>
+                </div>
+            </div>
+            <div class="result-area">
+                <span class="result">Resultado:</span>
+            </div>
+
+            <div class="imc-classification">
+                <h1>Classifação do IMC</h1>
+                    <ul>
+                        <li>Abaixo de 18,5 = abaixo do peso;</li>
+                        <li>Entre 18,5 e 24,9 = peso normal;</li>
+                        <li>Entre 25 e 29,9 = sobrepeso;</li>
+                        <li>Entre 30 e 34,9 = obesidade 1;</li>
+                        <li>entre 35 e 39.9 = obesidade 2;</li>
+                        <li>Maior que 40 = obesidade 3.</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="wave">
+            <img src="./assets/image/svg.png" alt="wave" class="wave">
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
